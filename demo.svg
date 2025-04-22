@@ -1,0 +1,33 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="450" fill="#f5f5f5"/>
+  
+  <!-- 图片容器 -->
+  <rect x="100" y="50" width="600" height="350" rx="10" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+  
+  <!-- 即梦图片模拟 -->
+  <rect x="120" y="70" width="560" height="310" rx="5" fill="#f0f0f0"/>
+  <text x="400" y="225" font-family="Arial" font-size="24" text-anchor="middle" fill="#999999">即梦AI生成图片</text>
+  
+  <!-- 下载按钮 -->
+  <g>
+    <circle cx="650" cy="350" r="18" fill="rgba(0,0,0,0.7)"/>
+    <path d="M650 340 L650 354 M644 348 L650 354 M656 348 L650 354 M642 358 L658 358" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- 鼠标指针 -->
+  <path d="M640 330 L650 340 L645 340 L645 345 L635 335 Z" fill="#333"/>
+  
+  <!-- 下载进度提示 -->
+  <g>
+    <rect x="250" y="380" width="300" height="40" rx="5" fill="rgba(40,167,69,0.9)"/>
+    <text x="400" y="405" font-family="Arial" font-size="14" text-anchor="middle" fill="white">图片下载成功！</text>
+  </g>
+  
+  <!-- 标注 -->
+  <g>
+    <line x1="650" y1="350" x2="700" y2="380" stroke="#1890ff" stroke-width="2" stroke-dasharray="3,3"/>
+    <rect x="680" y="380" width="110" height="35" rx="5" fill="#1890ff"/>
+    <text x="735" y="403" font-family="Arial" font-size="12" text-anchor="middle" fill="white">点击下载原图</text>
+  </g>
+</svg> 
