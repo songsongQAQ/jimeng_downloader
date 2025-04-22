@@ -133,7 +133,7 @@
 
         // 生成文件名
         const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-        const fileName = `jimeng_${timestamp}.png`;
+        const fileName = `jimeng_${timestamp}.webp`;
         
         fetch(imgUrl)
             .then(response => {
